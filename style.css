@@ -1,0 +1,27 @@
+.table {
+  border-spacing: 1px;
+  text-align: center;
+  color: red;
+  font-size: 22px;
+  width: 10px;
+  height: 20px;
+}
+@media screen and (max-width: 20px) and (max-height: 11px) {
+  .table {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+.flexbox {
+  display: flex;
+  padding: 1px;
+  border: 22px solid red; 
+  color: blue;
+}
+
+.box {
+  border: 5px solid green;
+  font-size: 10px;
+  padding: 1px;
+}
